@@ -1,0 +1,6 @@
+{
+  "file": "app/fixable.py",
+  "find": "hashlib.md5(document)",
+  "replace": "hashlib.sha256(document)",
+  "rule": "python:S4790"
+}
